@@ -344,3 +344,4 @@ async def search_users(query_params: Annotated[UserSearchParams, Query()]):
 
 ...
 ```
+<img width="1340" height="190" alt="스크린샷 2025-10-01 오전 8 00 17" src="https://github.com/user-attachments/assets/bcc5bf29-caaa-4bb3-a395-a97514b1f31a" />
