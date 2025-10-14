@@ -1,6 +1,6 @@
 # 테스트도중한번이라도 실행된 제품코드 / 전체제품코드(4)
 
-from temp import add
+from .temp import add
 
 
 def test_add() -> None:
