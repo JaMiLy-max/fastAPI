@@ -1,7 +1,7 @@
 # from typing import Annotated
-from fastapi import FastAPI, HTTPException, Path, Depends
 from app.models.users import UserModel
-from app.schemas.users import UserCreateRequest, UserUpdateRequest, UserSearchParams
+from app.schemas.users import UserCreateRequest, UserSearchParams, UserUpdateRequest
+from fastapi import Depends, FastAPI, HTTPException, Path
 
 app = FastAPI()
 
